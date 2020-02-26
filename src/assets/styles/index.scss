@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import "board";
+@import "auth";
+
+main {
+  padding: 6rem 1rem 4rem;
+  min-height: calc(100vh - 80px);
+  -webkit-flex: 1 1;
+  flex: 1 1;
+}
+button {
+  &:focus {
+    outline: none!important;
+  }
+}
+.btn-submit {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 4px 0;
+  &:focus {
+    outline: none;
+  }
+}
+.error {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+  margin-top: -12px;
+}
